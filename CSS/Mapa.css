@@ -1,0 +1,129 @@
+
+body{
+    margin: 0;
+    background-color: #000000e3;
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;
+}
+
+
+.text{
+    font-family: "TR Chinese Rocks", "Hapna Slab Serif W00 DemiBold", "Amatic SC", "Sigmar", serif;
+    font-weight: 400;
+    font-size: x-large;
+    font-style: normal;
+    text-align: center;
+    padding: 15px 15px 0px 15px;
+}
+
+.Title{
+    font-family: "TR Chinese Rocks";
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    font-size: 4.2rem;
+    margin: 0 auto;
+    color: aliceblue;
+    text-align: start;
+    width: 97.3%;
+    background-color: black;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.position {
+    position: fixed;
+    background-color: #8B0000;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 100;
+    transition: top 0.3s;
+    align-items: center;
+    padding: 10px 0px;
+    display: flex;
+}
+
+.log_inic{
+    width: 15%;
+    margin: 1%;
+}
+
+a:hover .log{
+    content: url("Imagenes/Logo_blanco.png");
+}
+
+div a{
+    color: aliceblue;
+    text-align: left;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.cuerpo{
+    padding-top: 9.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 1rem;
+    flex: 1;
+}
+
+a.Menu:link{
+    color: aliceblue;
+}
+
+a.Menu:hover {
+    transition: all 0.4s ease;
+    color: darkred;
+    background-color: aliceblue;
+}
+
+a.Menu:active {
+    transition: all 0.2s ease;
+    color: #000000e3;
+    background-color: aliceblue;
+}
+
+div.borde{
+    background-color: black;
+    height: 25rem;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.personaje-img {
+    width: 1057px; 
+    height: 830px; 
+    object-fit: cover; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.pie {
+    background-color: #8B0000;
+    color: white;
+    padding: 15px 0;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    margin-top: auto;
+    width: 100%;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer section{
+    float: right;   
+}
+
+footer a{
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: aliceblue;
+    padding-right: 1rem;
+}
+
+footer a:hover{
+    color: gold;
+}
