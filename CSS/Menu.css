@@ -64,7 +64,7 @@ body{
 }
 
 a:hover .log{
-    content: url("/Imagenes/Logo_blanco.png");
+    content: url("Imagenes/Logo_blanco.png");
 }
 
 div a{
